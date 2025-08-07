@@ -3,7 +3,7 @@
 <!-- Add later -->
 <!-- [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github.com/pdf-viewer-react/starter-rp-remix-ts) -->
 
-Welcome to the React PDF Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with Remix and TypeScript. It showcases how React PDF can be integrated and rendered as part of a React.js project.
+Welcome to the React PDF Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with Gatsby and JavaScript. It showcases how React PDF can be integrated and rendered as part of a React.js project.
 
 ## Table of Contents
 
