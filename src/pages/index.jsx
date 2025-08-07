@@ -8,28 +8,26 @@ const IndexPage = () => {
     <>
       {!isSSR && (
         <React.Suspense fallback={<div />}>
-          
           <RPConfig>
-            
             <div className="container">
-            <h1>RP Starter Toolkit: Gatsby + JavaScript</h1>
-            <br />
-            <h2>Default Toolbar</h2>
-            <LazyAppPdfViewer />
-            <h2>Without Toolbar</h2>
-            <LazyAppPdfViewer
-              showToolbar={false}
-              defaultLayoutProps={{
-                style: { width: "100%", height: "550px" },
-              }}
-            />
-            <h2>Mobile</h2>
-            <LazyAppPdfViewer
-              defaultLayoutProps={{
-                style: { width: "500px" },
-              }}
-            />
-          </div>
+              <h1>RP Starter Toolkit: Gatsby + JavaScript</h1>
+              <br />
+              <h2>Default Toolbar</h2>
+              <LazyAppPdfViewer />
+              <h2>Without Toolbar</h2>
+              <LazyAppPdfViewer
+                showToolbar={false}
+                defaultLayoutProps={{
+                  style: { width: "100%", height: "550px" },
+                }}
+              />
+              <h2>Mobile</h2>
+              <LazyAppPdfViewer
+                defaultLayoutProps={{
+                  style: { width: "500px" },
+                }}
+              />
+            </div>
           </RPConfig>
         </React.Suspense>
       )}
